@@ -11,7 +11,6 @@ class PlaylistGeneratorService {
         def multipleUrl = []
         Map<String, String> songs = new HashMap<>();
 
-
         if (genre.size()==1){
             apiUrl = "http://api.musicgraph.com/api/v2/playlist?api_key=c8303e90962e3a5ebd5a1f260a69b138&genres=" + genre[0] + "&decade=2010s";
             def json = new JsonSlurper().parseText( new URL(apiUrl).text )

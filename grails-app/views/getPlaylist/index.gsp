@@ -67,10 +67,6 @@
             </div>
         </div>
 
-
-
-
-
     </div>
 </g:form>
 </body>
